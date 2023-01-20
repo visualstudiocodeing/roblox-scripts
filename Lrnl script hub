@@ -1,0 +1,258 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local SideBar = Instance.new("Frame")
+local ScriptHub1 = Instance.new("TextButton")
+local ScriptHub2 = Instance.new("TextButton")
+local TopBar = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Script1frame = Instance.new("Frame")
+local Arsenal = Instance.new("TextButton")
+local Bedwars = Instance.new("TextButton")
+local PrisonLife = Instance.new("TextButton")
+local infiniteyield = Instance.new("TextButton")
+local darkdexv4 = Instance.new("TextButton")
+local OwlHub = Instance.new("TextButton")
+local Script2frame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.311077386, 0, 0.301234573, 0)
+Frame.Size = UDim2.new(0, 498, 0, 321)
+Frame.Active = true
+Frame.Draggable = true
+
+SideBar.Name = "SideBar"
+SideBar.Parent = Frame
+SideBar.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+SideBar.BorderSizePixel = 0
+SideBar.Size = UDim2.new(0, 100, 0, 321)
+
+ScriptHub1.Name = "ScriptHub1"
+ScriptHub1.Parent = SideBar
+ScriptHub1.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptHub1.BorderSizePixel = 0
+ScriptHub1.Position = UDim2.new(0, 0, 0.171339557, 0)
+ScriptHub1.Size = UDim2.new(0, 100, 0, 29)
+ScriptHub1.Font = Enum.Font.SourceSans
+ScriptHub1.Text = "Script Hub 1"
+ScriptHub1.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHub1.TextSize = 14.000
+
+ScriptHub2.Name = "ScriptHub2"
+ScriptHub2.Parent = SideBar
+ScriptHub2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScriptHub2.BorderSizePixel = 0
+ScriptHub2.Position = UDim2.new(0, 0, 0.261682242, 0)
+ScriptHub2.Size = UDim2.new(0, 100, 0, 29)
+ScriptHub2.Font = Enum.Font.SourceSans
+ScriptHub2.Text = "Script Hub 2"
+ScriptHub2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHub2.TextSize = 14.000
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Frame
+TopBar.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TopBar.BorderSizePixel = 0
+TopBar.Position = UDim2.new(0, 0, -0.00113894267, 0)
+TopBar.Size = UDim2.new(0, 497, 0, 37)
+
+TextLabel.Parent = TopBar
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.0566043332, 0)
+TextLabel.Size = UDim2.new(0, 100, 0, 34)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Lrnl Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 25.000
+
+Script1frame.Name = "Script1frame"
+Script1frame.Parent = Frame
+Script1frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Script1frame.BorderSizePixel = 0
+Script1frame.Position = UDim2.new(0.20080322, 0, 0.112149529, 0)
+Script1frame.Size = UDim2.new(0, 397, 0, 285)
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Script1frame
+Arsenal.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Arsenal.BorderSizePixel = 0
+Arsenal.Position = UDim2.new(0.0226700231, 0, 0.0421052687, 0)
+Arsenal.Size = UDim2.new(0, 136, 0, 42)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.TextSize = 18.000
+
+Bedwars.Name = "Bedwars"
+Bedwars.Parent = Script1frame
+Bedwars.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Bedwars.BorderSizePixel = 0
+Bedwars.Position = UDim2.new(0.556675076, 0, 0.0421052687, 0)
+Bedwars.Size = UDim2.new(0, 136, 0, 42)
+Bedwars.Font = Enum.Font.SourceSans
+Bedwars.Text = "Bedwars"
+Bedwars.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bedwars.TextSize = 18.000
+
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = Script1frame
+PrisonLife.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+PrisonLife.BorderSizePixel = 0
+PrisonLife.Position = UDim2.new(0.0226700306, 0, 0.392982453, 0)
+PrisonLife.Size = UDim2.new(0, 136, 0, 42)
+PrisonLife.Font = Enum.Font.SourceSans
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLife.TextSize = 18.000
+
+infiniteyield.Name = "infinite yield"
+infiniteyield.Parent = Script1frame
+infiniteyield.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+infiniteyield.BorderSizePixel = 0
+infiniteyield.Position = UDim2.new(0.556675076, 0, 0.392982453, 0)
+infiniteyield.Size = UDim2.new(0, 136, 0, 42)
+infiniteyield.Font = Enum.Font.SourceSans
+infiniteyield.Text = "infinite yield"
+infiniteyield.TextColor3 = Color3.fromRGB(255, 255, 255)
+infiniteyield.TextSize = 18.000
+
+darkdexv4.Name = "darkdexv4"
+darkdexv4.Parent = Script1frame
+darkdexv4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+darkdexv4.BorderSizePixel = 0
+darkdexv4.Position = UDim2.new(0.0226700306, 0, 0.761403561, 0)
+darkdexv4.Size = UDim2.new(0, 136, 0, 42)
+darkdexv4.Font = Enum.Font.SourceSans
+darkdexv4.Text = "dark dex v4"
+darkdexv4.TextColor3 = Color3.fromRGB(255, 255, 255)
+darkdexv4.TextSize = 18.000
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = Script1frame
+OwlHub.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+OwlHub.BorderSizePixel = 0
+OwlHub.Position = UDim2.new(0.556675076, 0, 0.761403561, 0)
+OwlHub.Size = UDim2.new(0, 136, 0, 42)
+OwlHub.Font = Enum.Font.SourceSans
+OwlHub.Text = "Owl Hub"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextSize = 18.000
+
+Script2frame.Name = "Script2frame"
+Script2frame.Parent = Frame
+Script2frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Script2frame.BorderSizePixel = 0
+Script2frame.Position = UDim2.new(0.20080322, 0, 0.10903427, 0)
+Script2frame.Size = UDim2.new(0, 397, 0, 286)
+Script2frame.Visible = false
+
+TextLabel_2.Parent = Script2frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.24685137, 0, 0.349650353, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "No Scripts :c"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+-- Scripts:
+
+local function QWFU_fake_script() -- ScriptHub1.LocalScript 
+	local script = Instance.new('LocalScript', ScriptHub1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Script1frame.Visible = true
+		script.Parent.Parent.Parent.Script2frame.Visible = false
+	end)
+end
+coroutine.wrap(QWFU_fake_script)()
+local function WJTLWT_fake_script() -- ScriptHub2.LocalScript 
+	local script = Instance.new('LocalScript', ScriptHub2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Script1frame.Visible = false
+		script.Parent.Parent.Parent.Script2frame.Visible = true
+	end)
+end
+coroutine.wrap(WJTLWT_fake_script)()
+local function ZQFIJEO_fake_script() -- Arsenal.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(ZQFIJEO_fake_script)()
+local function WHLXTK_fake_script() -- Bedwars.LocalScript 
+	local script = Instance.new('LocalScript', Bedwars)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+		end)
+end
+coroutine.wrap(WHLXTK_fake_script)()
+local function ANFX_fake_script() -- PrisonLife.LocalScript 
+	local script = Instance.new('LocalScript', PrisonLife)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+		end)
+end
+coroutine.wrap(ANFX_fake_script)()
+local function DVMGZ_fake_script() -- infiniteyield.LocalScript 
+	local script = Instance.new('LocalScript', infiniteyield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();
+		end)
+end
+coroutine.wrap(DVMGZ_fake_script)()
+local function STWNC_fake_script() -- darkdexv4.LocalScript 
+	local script = Instance.new('LocalScript', darkdexv4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/visualstudiocodeing/roblox-scripts/main/dark%20dex'))()
+		end)
+end
+coroutine.wrap(STWNC_fake_script)()
+local function IWRBX_fake_script() -- OwlHub.LocalScript 
+	local script = Instance.new('LocalScript', OwlHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+	end)
+end
+coroutine.wrap(IWRBX_fake_script)()
+local function MNTSSYF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local Player = game:GetService("Players").LocalPlayer
+	local Mouse = Player:GetMouse()
+	local Frame = script.Parent.Frame
+	local keybind = "-"
+	
+	Mouse.KeyDown:Connect(function(key)
+		if key == keybind then
+			if Frame.Visible == true then
+				Frame.Visible = false
+			elseif Frame.Visible == false then
+				Frame.Visible = true
+			end
+		end
+	end)
+end
+coroutine.wrap(MNTSSYF_fake_script)()
